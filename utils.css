@@ -137,4 +137,8 @@
     .footer .link{
         padding: 0 10px;
     }
+    .lv2 p{
+        padding: 0 20px;
+        text-align: center;
+    }
 }
