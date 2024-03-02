@@ -1,0 +1,140 @@
+/* ----- MEDIA QUERY == 1024px / RESPONSIVE ----- */
+@media only screen and (max-width: 1024px){
+    .image, .image img{
+        width: 320px;
+        height: 320px;
+    }
+}
+
+
+/* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
+@media only screen and (max-width: 900px) {
+    .menu-icon{
+        display: flex;
+    }
+    nav ul{
+        display: none;
+        left: 0;
+    }
+    .toggle{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 40vh;
+        gap: 20px;
+        top: 70px;
+        background: var(--body-color);
+        transition: .3s;
+    }
+
+    .hero{
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+    }
+    .hero .intro{
+        width: 100%;
+        order: 2;
+        justify-content: center;
+        min-height: 60vh;
+    }
+    .hero-image{
+        order: 1;
+        justify-content: center;
+        min-height: 150px;
+        width: 100%;
+        margin-top: 70px;
+        margin-bottom: 5px;
+    }
+    .image, .image img{
+        width: 220px;
+        height: 220px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+    .col{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .service-box>i{
+        font-size: 35px;
+    }
+    .service-box h3{
+        font-size: 15px;
+    }
+    .portfolio-container{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
+@media only screen and (max-width: 540px){
+    .collection{
+        padding-inline: 8vw;
+    }
+    header{
+        padding-inline: 8vw;
+    }
+    .intro .my-name{
+        font-size: 30px;
+    }
+    .info .sub-heading{
+        font-size: 20px;
+    }
+    .social-icons{
+        margin-top: 2em;
+    }
+    .scroll-btn{
+        display: none;
+    }
+    .card-inner{
+        padding-block: 30px 50px;
+        padding-inline: 30px;
+        text-align: start;
+    }
+    .skill-content{
+        width: 90%;
+    }
+    .about-info p{
+        text-align: center;
+        color: var(--white-0);
+    }
+    .service-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .service-box{
+        width: 100%;
+    }
+    .portfolio-card{
+        height: 230px;
+    }
+    .contact-info{
+        padding: 20px 0;
+        height: 225px;
+    }
+    form .input-box{
+        flex-direction: column;
+    }
+    .input-box .input-field{
+        width: 100%;
+    }
+    .footer .social{
+        padding: 0 10px;
+    }
+    .footer .link{
+        padding: 0 10px;
+    }
+}
