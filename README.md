@@ -2,7 +2,7 @@
 
 This is a personal portfolio website built using **HTML**, **CSS**, and **JavaScript**. It showcases my skills, projects, and contact details in a responsive and interactive format.
 
-🚀 **Live Demo:** [natique-demo-portfolio.vercel.app](https://natique-demo-portfolio.vercel.app)
+🚀 **Live Demo:** [Natique_Asghar](https://natique-demo-portfolio.vercel.app)
 
 <img width="1918" height="868" alt="Screenshot 2025-08-07 221024" src="https://github.com/user-attachments/assets/b1601799-caf6-42f0-84e1-913e02e3b1af" />
 ---
