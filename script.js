@@ -5,10 +5,10 @@ function toggleDarkMode() {
 
 /*-------------SCRIPT FOR TOGGLE MENU ----------*/ 
 let hamburg =document.querySelector(".menu-icon");
-let ul =document.querySelector("ul");
+let list =document.querySelector("ul");
 
 hamburg.addEventListener("click", ()=>{
-    ul.classList.toggle("toggle");
+    list.classList.toggle("toggle");
 })
 /*-------------SCRIPT FOR THEME CHANGE ----------*/ 
 function toggleDarkMode() {
@@ -338,4 +338,5 @@ form.addEventListener("submit", (e) => {
     }
 
 })
+
 
