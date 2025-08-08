@@ -1,4 +1,4 @@
-<img width="1917" height="866" alt="Screenshot 2025-08-08 193853" src="https://github.com/user-attachments/assets/9665e7f1-71cd-426a-ae90-603942c56581" /># 🌐 Personal Portfolio - 
+# 🌐 Personal Portfolio - 
 
 This is a personal portfolio website built using **HTML**, **CSS**, and **JavaScript**. It showcases my skills, projects, and contact details in a responsive and interactive format.
 
